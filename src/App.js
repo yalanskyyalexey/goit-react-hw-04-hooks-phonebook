@@ -51,8 +51,6 @@ function App() {
 	return (
 		<div className={s.appWrapper}>
 			<ContactForm addContact={addContact} />
-			{/* <ContactForm onSubmit={this.formSubmitHandler} /> */}
-
 			<h2>Contacts</h2>
 			<Filter value={filter} onChange={changeFilter} />
 			<ContactList contacts={filteredContacts} onDelete={deleteContact} />
